@@ -13,6 +13,7 @@ import { WidgetOneComponent } from './widgets/widget-one/widget-one.component';
   imports:      [ BrowserModule, FormsModule ],
   declarations: [ AppComponent, HelloComponent, OverlayComponent, WidgetOneComponent ],
   bootstrap:    [ AppComponent ],
-  providers: [DynamicComponentService, OverlayService]
+  providers: [DynamicComponentService, OverlayService],
+  entryComponents: [OverlayComponent]
 })
 export class AppModule { }

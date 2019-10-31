@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-widget-one',
@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./widget-one.component.css']
 })
 export class WidgetOneComponent implements OnInit {
+  @Input() id: string;
 
   constructor() { }
 

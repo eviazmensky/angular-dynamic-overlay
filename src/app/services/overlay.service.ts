@@ -31,8 +31,8 @@ export class OverlayService {
     childrenComponents = Array.from(document.getElementById(id).children);
     const spinnerComponent = childrenComponents.filter(child => {
       return (
-        child["localName"] === "auth-viewer-spinner" ||
-        child["nodeName"] === "AUTH-VIEWER-SPINNER"
+        child["localName"] === "app-overlay" ||
+        child["nodeName"] === "APP-OVERLAY"
       );
     });
     return spinnerComponent.length > 0;
