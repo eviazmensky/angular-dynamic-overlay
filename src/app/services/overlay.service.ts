@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { DynamicComponentService } from './dynamic-component.service';
-import { OverlayComponent } from '../components/overlay.component';
+import { OverlayComponent } from '../components/overlay/overlay.component';
 
 @Injectable()
 export class OverlayService {
