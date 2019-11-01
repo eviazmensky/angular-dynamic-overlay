@@ -16,7 +16,7 @@ export class AppComponent implements OnInit  {
 
   ngOnInit() {
     this.spinner$.pipe(
-      delay(10000)
+      delay(2500)
     ).subscribe(
        () => {
          this.overlayService.stop('wrapper');
